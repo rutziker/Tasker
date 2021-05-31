@@ -1,0 +1,105 @@
+<TaskerData sr="" dvi="1" tv="5.12.21">
+	<Task sr="task5">
+		<cdate>1622162312241</cdate>
+		<edate>1622335878576</edate>
+		<id>5</id>
+		<nme>LOG!</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>725543659</code>
+			<label>start autolocation monitor</label>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ExpirationDuration>&lt;null&gt;</ExpirationDuration>
+					<ExpirationDuration-type>java.lang.String</ExpirationDuration-type>
+					<Interval>20</Interval>
+					<Interval-type>java.lang.String</Interval-type>
+					<Listen>1</Listen>
+					<Listen-type>java.lang.String</Listen-type>
+					<LocationReportName>&lt;null&gt;</LocationReportName>
+					<LocationReportName-type>java.lang.String</LocationReportName-type>
+					<NumberOfUpdates>&lt;null&gt;</NumberOfUpdates>
+					<NumberOfUpdates-type>java.lang.String</NumberOfUpdates-type>
+					<Priority>100</Priority>
+					<Priority-type>java.lang.String</Priority-type>
+					<RetrieveFirstLocation>true</RetrieveFirstLocation>
+					<RetrieveFirstLocation-type>java.lang.Boolean</RetrieveFirstLocation-type>
+					<SmallestDisplacement>&lt;null&gt;</SmallestDisplacement>
+					<SmallestDisplacement-type>java.lang.String</SmallestDisplacement-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Starting Location Monitor
+Retrieve First Location: true
+Interval: 20 seconds
+Update Type: High Accuracy</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%alaccuracy
+Accuracy
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%alaltitude
+Altitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%albearing
+Bearing (High-Accuracy Only)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%allatitude
+Latitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%allongitude
+Longitude
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%alprovider
+Provider
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%alspeed
+Speed in meters/second over ground (High-Accuracy Only)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%altime
+Time
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%altrackingdata
+Tracking Data
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%altrackingdistance
+Distance
+Total distance in tracking data&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%alupdatetype
+Update Type (High Accuracy, Balanced, Low Power,No Power)
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>Listen Interval Priority plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<plugininstanceid>cc37dbd9-68d3-43c0-a07a-6df78007d263</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autolocation.intent.IntentRequestLocationReport</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autolocation</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autolocation.activity.ActivityConfigRequestLocationReport</Str>
+			<Int sr="arg3" val="60"/>
+			<Int sr="arg4" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>888</code>
+			<label>COUNT</label>
+			<Str sr="arg0" ve="3">%COUNT</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>EVENT</label>
+			<Str sr="arg0" ve="3">%EVENT</Str>
+			<Str sr="arg1" ve="3">0.00000001317*%COUNT*%TIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>410</code>
+			<label>log(count.event,time,data,)</label>
+			<Str sr="arg0" ve="3">Tasker/userLog/%DATE baseLog.csv</Str>
+			<Str sr="arg1" ve="3">%TIME,%COUNT.%EVENT,%DATA,</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="1"/>
+		</Action>
+	</Task>
+</TaskerData>
