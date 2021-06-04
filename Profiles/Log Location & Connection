@@ -23,8 +23,8 @@
 			<cname>but not on home wifi;</cname>
 			<code>170</code>
 			<pin>true</pin>
-			<Str sr="arg0" ve="3">Campbell_5Ghz/Campbell_2.4Ghz</Str>
-			<Str sr="arg1" ve="3">ec:4f:82:2c:7d:ec/ec:4f:82:2c:7d:eb</Str>
+			<Str sr="arg0" ve="3">%%YOURSSIDHERE</Str>
+			<Str sr="arg1" ve="3"%%YOURMACHEREStr>
 			<Str sr="arg2" ve="3"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
