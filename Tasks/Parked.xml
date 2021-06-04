@@ -134,9 +134,9 @@ Time in seconds since EPOCH the location was gotten&lt;/_array_net.dinglisch.and
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>41</code>
-			<label>sms parking location to 18649710368</label>
+			<label>sms parking location to %%YOYRCELLNOHERE</label>
 			<se>false</se>
-			<Str sr="arg0" ve="3">18649710368</Str>
+			<Str sr="arg0" ve="3">%%YOURCELLNOHERE</Str>
 			<Str sr="arg1" ve="3">%TIME %DATE,
 %parkStatus,
 %CELLID,
